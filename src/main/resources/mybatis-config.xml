@@ -11,7 +11,4 @@
     <typeAliases>
         <package name="com.suibemath.pojo"/>
     </typeAliases>
-    <mappers>
-        <package name="com.suibemath.mapper"/>
-    </mappers>
 </configuration>
