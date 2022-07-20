@@ -19,7 +19,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
  * 注解扫描com.suibemath.controller包
  */
 @Configuration
-@ComponentScan({"com.suibemath.controller"})
+@ComponentScan({"com.suibemath.controller", "com.suibemath.config"})
 @EnableWebMvc
 public class WebConfig implements WebMvcConfigurer {
 
